@@ -261,15 +261,14 @@ footer {
   color: #ffffff;
 }
 
-/* .fa-map-marker-alt {
+.fa-map-marker-alt {
   font-size: 40px;
-} */
+}
 .btn i {
   color: #ffffff;
   font-size: 40px;
 }
-}
-
+/* } */
 /*Responsive*/
 @media screen and (max-width: 900px) {
   header {
@@ -364,6 +363,9 @@ footer {
   .cards .card img {
     width: 90px;
     height: 90px;
+  }
+  .contenido-textos-card > p {
+    text-align: center;
   }
 
   /*footer*/
