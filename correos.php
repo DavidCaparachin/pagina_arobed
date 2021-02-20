@@ -7,7 +7,7 @@
   $mensaje = $_POST['mensaje'];
 
   $header = "Enviado desde la pagina AROBED";
-  $mensajeCompleto = $mensaje."\nSAtentamente: ".$nombre
+  $mensajeCompleto = $mensaje."\nSAtentamente: ".$nombre;
 
   mail($destinatario, $correo,$mensajeCompleto,$header);
   echo '<script>alert('correo enviado exitosamente')</script>';
