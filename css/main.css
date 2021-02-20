@@ -362,9 +362,10 @@ footer {
 .campo input[type="tel"] {
   background-color: var(--naranja);
 } */
-.campo textarea {
+
+/* .campo textarea {
   height: 2rem;
-}
+} */
 .input-text {
   width: 100%;
   border: none;
