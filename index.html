@@ -168,6 +168,62 @@
         </div>
       </section>
     </main>
+    <section class="servicio">
+      <h2>Contacto</h2>
+      <form class="formulario" action="correos.php" method="POST">
+        <fieldset>
+          <legend>Contactános llenando todos los campos</legend>
+          <div class="contenedor-campos">
+            <div class="campo">
+              <label for="">Nombre</label>
+              <input
+                class="input-text"
+                type="text"
+                name="nombre"
+                placeholder="Nombre"
+                required
+              />
+            </div>
+            <div class="campo">
+              <label for="">Teléfono</label>
+              <input
+                class="input-text"
+                type="tel"
+                name="telefono"
+                placeholder="Tu Teléfono"
+                required
+              />
+            </div>
+            <div class="campo">
+              <label for="">Correo</label>
+              <input
+                class="input-text"
+                type="email"
+                name="correo"
+                placeholder="Tu Email"
+                required
+              />
+            </div>
+            <div class="campo">
+              <label>Mensaje</label>
+              <textarea
+                class="input-text"
+                name=""
+                id=""
+                cols="30"
+                name="mensaje"
+                rows="20"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--contenido-campos-->
+          <div class="alinear-derecha flex">
+            <input class="boton w-100" type="submit" value="Enviar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
     <footer>
       <div class="contenedor-footer">
         <div class="content-foo">
