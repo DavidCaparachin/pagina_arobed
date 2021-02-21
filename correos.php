@@ -37,7 +37,7 @@ try {
     $mail->Body    = "$contenido ";
    
     $mail->send();
-    header("Location:index.html");
+    header("Location:https://trusting-kepler-4001e1.netlify.app/");
 } catch (Exception $e) {
     echo "Hubo un error al enviar el mensaje: {$mail->ErrorInfo}";
 }
